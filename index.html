@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- CALCULATOR -->
+
+    <div class="main-div">
+        <div class="main">
+            <div class="">
+                <h3 class="head">Calculator </h3>
+                <hr>
+            </div>
+            <div class="screen">
+                <input type="text" name="res" id="res" placeholder=" 0" class="innn">
+            </div>
+            <div class="submain">
+                <div class="respons">
+                    <button class="Btn" onclick="clrNum('0')">C</button>
+                </div>
+                <div class="respons">
+                    <button class="Btn" onclick="perform('(')">(</button>
+                </div>
+                <div class="respons">
+                    <button class="Btn" onclick="perform(')')">)</button>
+                </div>
+                <div class="respons">
+                    <button class="Btn" onclick="perform('+')">+</button>
+                </div>
+            </div>
+            <div class="submain">
+                <div class="respons">
+                <button class="Btn" onclick="perform('7')">7</button>
+                </div>
+                <div class="respons">
+                <button class="Btn" onclick="perform('8')">8</button>
+                </div>
+                <div class="respons">
+                <button class="Btn" onclick="perform('9')">9</button>
+                </div>
+                <div class="respons">
+                <button class="Btn" onclick="perform('+')">+</button>
+                </div>
+            </div>
+            <div class="submain">
+                <div class="respons">
+                <button class="Btn" onclick="perform('4')">4</button>
+                </div>
+                <div class="respons">
+                <button class="Btn" onclick="perform('5')">5</button>
+                </div>
+                <div class="respons">
+                <button class="Btn" onclick="perform('6')">6</button>
+                </div>
+                <div class="respons">
+                <button class="Btn" onclick="perform('-')">-</button>
+                </div>
+            </div>
+            <div class="submain">
+                <div class="respons">
+                <button class="Btn" onclick="perform('1')">1</button>
+                </div>
+                <div class="respons">
+                <button class="Btn" onclick="perform('2')">2</button>
+                </div>
+                <div class="respons">
+                <button class="Btn" onclick="perform('3')">3</button>
+                </div>
+                <div class="respons">
+                <button class="Btn" onclick="perform('*')">x</button>
+                </div>
+            
+            </div>
+            <div class="submain">
+                <div class="respons">
+                <button class="Btn" onclick="perform('0')">0</button>
+                </div>
+                <div class="respons">
+                <button class="Btn" onclick="rand()">Ran</button>
+                </div>
+                <div class="respons">
+                <button class="Btn" onclick="clcResult()">=</button>
+                </div>
+                <div class="respons">
+                <button class="Btn" onclick="perform('/')">/</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="app.js"></script>
+
+</html>
